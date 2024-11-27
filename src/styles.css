@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.location-input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.location-input button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.location-input button:hover {
+  background: #45a049;
+}
+
+.weather-display img {
+  width: 80px;
+  height: 80px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Sunny */
+@keyframes background-animation-sunny {
+  0%, 100% { background: #f7dc6f; }
+  50% { background: #f4d03f; }
+}
+
+/* Rainy */
+@keyframes background-animation-rainy {
+  0%, 100% { background: #5d6d7e; }
+  50% { background: #85929e; }
+}
+
+/* Cloudy */
+@keyframes background-animation-cloudy {
+  0%, 100% { background: #bdc3c7; }
+  50% { background: #ecf0f1; }
+}
+
+/* Clear (night or day) */
+@keyframes background-animation-clear {
+  0%, 100% { background: #3498db; }
+  50% { background: #2980b9; }
+}
+
+/* Snowy */
+@keyframes background-animation-snowy {
+  0%, 100% { background: #dfe6e9; }
+  50% { background: #ffffff; }
+}
+
+/* Thunderstorm */
+@keyframes background-animation-thunderstorm {
+  0%, 100% { background: #2c3e50; }
+  50% { background: #34495e; }
+}
+
+/* Misty */
+@keyframes background-animation-misty {
+  0%, 100% { background: #95a5a6; }
+  50% { background: #bdc3c7; }
+}
+
+/* Windy */
+@keyframes background-animation-windy {
+  0%, 100% { background: #82ccdd; }
+  50% { background: #60a3bc; }
+}
+
+/* Foggy */
+@keyframes background-animation-foggy {
+  0%, 100% { background: #636e72; }
+  50% { background: #b2bec3; }
+}
+
+/* Overcast */
+@keyframes background-animation-overcast {
+  0%, 100% { background: #7f8c8d; }
+  50% { background: #95a5a6; }
+}
+
+/* Hazy */
+@keyframes background-animation-hazy {
+  0%, 100% { background: #f5f5f5; }
+  50% { background: #e0e0e0; }
+}
+
+/* Drizzle */
+@keyframes background-animation-drizzle {
+  0%, 100% { background: #76c7c0; }
+  50% { background: #5da6a4; }
+}
+
+/* Partly Cloudy */
+@keyframes background-animation-partly-cloudy {
+  0%, 100% { background: #d6eaf8; }
+  50% { background: #aed6f1; }
+}
+
+/* Hot */
+@keyframes background-animation-hot {
+  0%, 100% { background: #ff6f61; }
+  50% { background: #ff9a76; }
+}
+
+/* Cold */
+@keyframes background-animation-cold {
+  0%, 100% { background: #85c1e9; }
+  50% { background: #a9cce3; }
+}
