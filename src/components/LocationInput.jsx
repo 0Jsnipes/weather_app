@@ -14,7 +14,7 @@ const LocationInput = ({ setLocation, fetchWeather }) => {
     <div className="location-input">
       <input
         type="text"
-        placeholder="Enter location"
+        placeholder="Enter zip code or city"
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
