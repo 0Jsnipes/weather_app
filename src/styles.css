@@ -135,3 +135,21 @@ body {
   0%, 100% { background: #85c1e9; }
   50% { background: #a9cce3; }
 }
+.weather-display button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.weather-display button:hover {
+  background: #45a049;
+}
+
+.temperature {
+  font-size: 24px;
+  font-weight: bold;
+}
